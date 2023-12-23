@@ -6,4 +6,10 @@ auto_detect_remappings = true # recursive auto-detection of remappings
 optimizer_runs = 200
 solc = "0.8.21"
 
+[rpc_endpoints]
+xrpl-evm-sidechain = "${XRPL_EVM_RPC_URL}"
+
+
+
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
